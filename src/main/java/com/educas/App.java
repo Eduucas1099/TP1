@@ -20,6 +20,12 @@ public class App
             case 3:
                 Ejercicio3.ejercicio3();
                 break;
+            case 4:
+                Ejercicio4.ejercicio4();
+                break;
+            case 5:
+                Ejercicio5.ejercicio5();
+                break;
             case 11: 
                 Ejercicio11.ejercicio11();
                 break;

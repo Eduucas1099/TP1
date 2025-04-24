@@ -22,7 +22,7 @@ public class Ejercicio12 {
 
         int[] arregloOrdenado = new int[5];
         for (int i = 0; i < nros.length; i++) {          
-            for (int j = i+1; j < nros.length; j++) {
+            for (int j = i; j < nros.length; j++) {
                 if (nros[i] > nros[j]) {
                     arregloOrdenado[i] = nros[i];   
                 }else{
@@ -32,8 +32,6 @@ public class Ejercicio12 {
                     nros[j] = num2;
                 }
             }
-            System.out.println("Arreglo["+i+"] = "+ arregloOrdenado[i]);
-            arregloOrdenado[nros.length -1 ] = nros[nros.length-1];
         }
 
         System.out.println("Array ordenado: ");

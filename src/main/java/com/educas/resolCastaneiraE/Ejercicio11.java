@@ -1,4 +1,4 @@
-package com.educas;
+package com.educas.resolCastaneiraE;
 
 import java.util.Scanner;
 
